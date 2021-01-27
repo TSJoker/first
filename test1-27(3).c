@@ -1,21 +1,21 @@
 #include<stdio.h>
 struct Person
 {
-	char name[20];//¶¨Òå½á¹¹ÌåĞÕÃû
-	long  stnum;//¶¨Òå½á¹¹ÌåÑ§ºÅ
-	char major[20];//×¨Òµ
-	char class[20];//°à¼¶
-	char grade[20];//Äê¼¶
+	char name[20];//å®šä¹‰ç»“æ„ä½“å§“å
+	long  stnum;//å®šä¹‰ç»“æ„ä½“å­¦å·
+	char major[20];//ä¸“ä¸š
+	char class[20];//ç­çº§
+	char grade[20];//å¹´çº§
 
 };
 int main()
 {
-	struct Person P1 = { "ÀîÓ±",1862020222,"ººÓï¹ú¼Ê½ÌÓı","¶ş°à","18¼¶" };//´´ÔìÒ»¸ö¸ÃÀàĞÍµÄ½á¹¹Ìå±äÁ¿
-	struct Person* D = &P1;
-	printf("ĞÕÃû:%s\n", D->name);//P.name±íÊ¾½á¹¹Ìå±äÁ¿.³ÉÔ±
-	printf("Ñ§ºÅ:%d\n", D->stnum);
-	printf("×¨Òµ:%s\n", D->major);
-	printf("°à¼¶:%s\n", D->class);
-	printf("Äê¼¶:%s\n", D->grade);
+	struct Person P1 = { "æé¢–",1862020222,"æ±‰è¯­å›½é™…æ•™è‚²","äºŒç­","18çº§" };//åˆ›é€ ä¸€ä¸ªè¯¥ç±»å‹çš„ç»“æ„ä½“å˜é‡
+	struct Person* D = &P1;//å®šä¹‰Dä¸ºç»“æ„ä½“æŒ‡é’ˆå˜é‡
+	printf("å§“å:%s\n", D->name);//D->nameè¡¨ç¤ºç»“æ„ä½“å˜é‡->æˆå‘˜ï¼Œä¸‹åŒ
+	printf("å­¦å·:%d\n", D->stnum);
+	printf("ä¸“ä¸š:%s\n", D->major);
+	printf("ç­çº§:%s\n", D->class);
+	printf("å¹´çº§:%s\n", D->grade);
 	return 0;
 }
