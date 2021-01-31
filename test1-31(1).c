@@ -1,19 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-
+//æ ¹æ®è¾“å…¥1-7è¾“å‡ºæ˜ŸæœŸä¸€åˆ°æ˜ŸæœŸå¤©
 int main()
 {
 	int day = 0;
 	scanf("%d", &day);
 	switch (day)
 	{
-	case 1: printf("ĞÇÆÚÒ»/n"); break;
-	case 2: printf("ĞÇÆÚ¶ş/n"); break;
-	case 3: printf("ĞÇÆÚÈı/n"); break;
-	case 4: printf("ĞÇÆÚËÄ/n"); break;
-	case 5: printf("ĞÇÆÚÎå/n"); break;
-	case 6: printf("ĞÇÆÚÁù/n"); break;
-	case 7: printf("ĞÇÆÚÌì/n"); break;
+	case 1: printf("æ˜ŸæœŸä¸€/n"); break;
+	case 2: printf("æ˜ŸæœŸäºŒ/n"); break;
+	case 3: printf("æ˜ŸæœŸä¸‰/n"); break;
+	case 4: printf("æ˜ŸæœŸå››/n"); break;
+	case 5: printf("æ˜ŸæœŸäº”/n"); break;
+	case 6: printf("æ˜ŸæœŸå…­/n"); break;
+	case 7: printf("æ˜ŸæœŸå¤©/n"); break;
 	}
 	return 0;
 }
