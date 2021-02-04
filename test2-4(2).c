@@ -6,17 +6,17 @@ int main()
 	int ch = 0;
 	int ret = 0;
 	char password[20] = { 0 };
-	printf("ÇëÊäÈëÃÜÂë:>");
+	printf("è¯·è¾“å…¥å¯†ç :>");
 	scanf("%s", password);
-	while (getchar(ch) != '\n')
+	while (getchar(ch) != '\n')//å­˜åœ¨è¾“å…¥ç¼“å†²åŒºï¼Œæ‰€ä»¥ç”¨æ­¤è¯­å¥æ¸…ç©ºç¼“å­˜åŒº
 	{
 		;
 	}
-	printf("ÇëÈ·ÈÏÃÜÂë:Y/N>");
+	printf("è¯·ç¡®è®¤å¯†ç :Y/N>");
 	ret = getchar();
 	if (ret == 'Y')
-		printf("È·ÈÏ³É¹¦\n");
+		printf("ç¡®è®¤æˆåŠŸ\n");
 	else
-		printf("È·ÈÏÊ§°Ü\n");
+		printf("ç¡®è®¤å¤±è´¥\n");
 	return 0;
 }
